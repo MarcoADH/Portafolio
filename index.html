@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Esta es mi Página Web" />
+  <meta name="author" content="Marco De la cruz" />
+  <meta name="keywords" content="Marco De la cruz, Portafolio, Frontend" />
+  <meta property="og:title" content="Marco - Frontend Developer" />
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+  <!-- Archivos Bootstrap y bootstrap icons-->
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <!-- Mis archivos -->
+  <link rel="stylesheet" href="./css/index.css">
+  <title>Marco De la cruz</title>
+</head>
+
+<body>
+  <!-- Sección del Menú izquierdo de Navegación -->
+  <div id="navegacion">
+    <div class="d-flex flex-column">
+
+      <!-- Perfil -->
+      <div class="perfil">
+        <img src="./assets/img/perfil_lobo.jpg" alt="" class="img-fluid rounded-circle">
+        <h1>Marco De la cruz</h1>
+        <div class="redes">
+          <a href="https://www.linkedin.com/in/marcodelacruzh/" class="linkedin" target="_blank">
+            <i class="bi bi-linkedin"></i>
+          </a>
+          <a href="https://github.com/MarcoADH/" class="github" target="_blank">
+            <i class="bi bi-github"></i>
+          </a>
+          <a href="https://www.instagram.com/marco.de.la.cruz/" class="instagram" target="_blank">
+            <i class="bi bi-instagram"></i>
+          </a>
+        </div>
+      </div>
+
+      
+      <!-- Menú de Navegación -->
+      <div class="menu">
+        <ul>
+          <li class="lista active">
+            <a href="#inicio">
+              <i class="bi bi-house"></i>
+              <span>Inicio</span>
+            </a>
+          </li>
+          <li class="lista">
+            <a href="#sobremi">
+              <i class="bi bi-person"></i>
+              <span>Sobre mí</span>
+            </a>
+          </li>
+          <li class="lista">
+            <a href="#portafolio">
+              <i class="bi bi-journal-code"></i>
+              <span>Proyectos</span>
+            </a>
+          </li>
+          <li>
+            <a href="mailto:delacruzhenriquez.marco@gmail.com">
+              <i class="bi bi-envelope"></i>
+              <span>Contacto</span>
+            </a>
+          </li>
+          <li>
+            <a href="./pdf/Marco_CV.pdf" download="Marco De la cruz - CV">
+              <i class="bi bi-file-pdf"></i>
+              <span>Descargar CV</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Botón menú -->
+      <button type="button" class="mobile-nav-toggle d-xl-none">
+        <i class="bi bi-list"></i>
+      </button>
+    </div>
+  </div>
+
+  <!-- Sección del inicio e imagen -->
+  <div id="inicio">
+    <div class="inicio-contenedor">
+      <h1>Marco De la cruz</h1>
+      <p>Web Developer</p>
+    </div>
+  </div>
+
+  <!-- Sección Principal -->
+  <main id="principal">
+    <!-- Sección Sobre Mí -->
+    <section id="sobremi">
+      <div class="container">
+        <h2 class="seccion_titulo">Sobre mí</h2>
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="sobremi_descripcion">
+              <p class="saludo">Hola, ¡Mucho gusto!</p>
+              <h2 class="yo">Soy Marco De la cruz,<br> Desarrollador Web y apasionado de la tecnología.</h2>
+              <p class="mi_info">Soy una persona autodidacta, constantemente tomando cursos para aprender nuevas
+                tecnologías. <br>Mayormente paso mi tiempo viendo nuevos cursos pero de vez en cuando me gusta ver
+                series y películas.</p>
+              <div class="sobremi_actual">
+                <p>¿Que hago actualmente?</p>
+                <p class="gnrl">Estoy cursando el último ciclo de la carrera "Computación e Informática".</p>
+                <p class="gnrl">Actualmente estoy trabajando en una página web - proyecto personal.</p>
+                <p class="gnrl">Estoy estudiando JavaScript y poniendo en práctica todo lo aprendido en proyectos
+                  propios.</p>
+                <p class="gnrl">Estoy interesado en aprender un framework como Angular o React, y seguir mejorando mis
+                  conocimientos en el lenguaje Java.</p>
+                <p class="gnrl">Interesado en un puesto como Desarrollador Web, ya sea Frontend o Backend, siempre
+                  dispuesto a seguir aprendiendo.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-12">
+            <div class="sobremi_conocimiento">
+              <div class="skills_titulo">
+                <h2>Mis conocimientos</h2>
+              </div>
+              <div class="skills_grid">
+                <div class="skills_hab">
+                  <img src="./assets/img/icons-html5.png" alt="HTML5">
+                  <div class="hab_nombre">HTML</div>
+                </div>
+                <div class="skills_hab">
+                  <img src="./assets/img/icons-css3.png" idth="37px">
+                  <div class="hab_nombre">CSS</div>
+                </div>
+                <div class="skills_hab">
+                  <img src="./assets/img/icons-javascript.png" alt="JavaScript">
+                  <div class="hab_nombre">JavaScript</div>
+                </div>
+                <div class="skills_hab">
+                  <img src="./assets/img/icons-boostrap.png" alt="Bootstrap">
+                  <div class="hab_nombre">Bootstrap</div>
+                </div>
+                <div class="skills_hab">
+                  <img src="./assets/img/icons-java.png" alt="Java">
+                  <div class="hab_nombre">Java</div>
+                </div>
+                <div class="skills_hab">
+                  <img src="./assets/img/icons-mysql.png" alt="MySql">
+                  <div class="hab_nombre">MySql</div>
+                </div>
+                <div class="skills_hab">
+                  <img src="./assets/img/icons-sqlserver.png" alt="Sql Server">
+                  <div class="hab_nombre">Sql Server</div>
+                </div>
+                <div class="skills_hab">
+                  <img src="./assets/img/icons-git.png" alt="Git">
+                  <div class="hab_nombre">Git</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección Proyectos-->
+    <section id="portafolio">
+      <div class="container">
+        <h2 class="seccion_titulo">Proyectos</h2>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="portafolio_item">
+              <div class="portafolio_img">
+                <img src="./assets/proyectos/proyecto_challenges_frontendmentor.png" alt="Proyecto Desafíos">
+              </div>
+              <div class="portafolio_info">
+                <h2>Desafíos Frontend Mentor</h2>
+                <p class="proy_descripcion">
+                  Desafíos resueltos de Frontend.
+                </p>
+                <div class="proy_tecnologias">
+                  <h4>Tecnologías:</h4>
+                  <div>
+                    <p>HTML</p>
+                    <p>CSS</p>
+                    <p>JS</p>
+                  </div>
+                </div>
+                <hr>
+                <div class="proy_links">
+                  <a type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#staticBackdrop1">
+                    Leer más
+                  </a>
+                  <a class="btn btn-primary" href="https://marcoadh.github.io/challenges/" target="_blank"><i
+                      class="bi bi-link"></i> Sitio Web</a>
+                  <a class="btn btn-dark" href="https://github.com/marcoadh/challenges" target="_blank"><i
+                      class="bi bi-github"></i> Repositorio</a>
+                </div>
+                <hr>
+
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false"
+                  tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true" style="z-index: 9992;">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">Desafíos Frontend Mentor</h5>
+                      </div>
+                      <div class="modal-body">
+                        <p class="proy_descripcion">
+                          Esta página fue creada para subir los desafíos que encontraba en la página <a
+                            href="https://www.frontendmentor.io/challenges" target="_blank">Frontend Mentor</a>, esto
+                          con el fin de poder practicar y mejorar mis habilidades en el diseño Frontend.
+                        </p>
+                        <p class="proy_descripcion">
+                          Próximamente iré subiendo más desafíos ya resueltos.
+                        </p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">
+                          Cerrar
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="portafolio_item">
+              <div class="portafolio_img">
+                <img src="./assets/proyectos/proyecto_pagina_arq.png" alt="Página Arquitectura">
+              </div>
+              <div class="portafolio_info">
+                <h2>ARQ | Arquitectura</h2>
+                <p class="proy_descripcion">
+                  Proyecto de Estudios - Página Arquitectura.
+                </p>
+                <div class="proy_tecnologias">
+                  <h4>Tecnologías:</h4>
+                  <div>
+                    <p>HTML</p>
+                    <p>CSS</p>
+                    <p>JS</p>
+                    <p>Bootstrap</p>
+                    <p>jQuery</p>
+                  </div>
+                </div>
+                <hr>
+                <div class="proy_links">
+                  <a type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">
+                    Leer más
+                  </a>
+                  <a class="btn btn-primary" href="https://project-architecture.netlify.app/" target="_blank"><i
+                      class="bi bi-link"></i> Sitio Web</a>
+                  <a class="btn btn-dark" href="https://github.com/marcoadh/arquitectura" target="_blank"><i
+                      class="bi bi-github"></i> Repositorio</a>
+                </div>
+                <hr>
+
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false"
+                  tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true" style="z-index: 9992;">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">ARQ | Arquitectura</h5>
+                      </div>
+                      <div class="modal-body">
+                        <p class="proy_descripcion">
+                          Esta página web fue creada como un proyecto de estudios. <br>
+                          Fue creada en el segundo ciclo de la carrera.
+                        </p>
+                        <p class="proy_descripcion">
+                          En aquél momento el proyecto fue realizado en Dreamweaver CC, con las tecnologías básicas de
+                          HTML, CSS, JS y agregando al proyecto Bootstrap y jQuery.
+                        </p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">
+                          Cerrar
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="portafolio_item">
+              <div class="portafolio_img">
+                <img src="./assets/proyectos/proyecto_portafolio.png" alt="Mi Portafolio">
+              </div>
+              <div class="portafolio_info">
+                <h2>Mi Portafolio</h2>
+                <p class="proy_descripcion">
+                  Proyecto Personal - Mi Portafolio.
+                </p>
+                <div class="proy_tecnologias">
+                  <h4>Tecnologías:</h4>
+                  <div>
+                    <p>HTML</p>
+                    <p>CSS</p>
+                    <p>JS</p>
+                    <p>Bootstrap</p>
+                  </div>
+                </div>
+                <hr>
+                <div class="proy_links">
+                  <a type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#staticBackdrop3">
+                    Leer más
+                  </a>
+                  <a class="btn btn-dark" href="https://github.com/marcoadh/portafolio" target="_blank"><i
+                      class="bi bi-github"></i> Repositorio</a>
+                </div>
+                <hr>
+
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop3" data-bs-backdrop="static" data-bs-keyboard="false"
+                  tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true" style="z-index: 9992;">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">Página Personal - Portafolio</h5>
+                      </div>
+                      <div class="modal-body">
+                        <p class="proy_descripcion">
+                          Este es un proyecto personal, creado con el fin de poder mostrar mis trabajos a la personas,
+                          como a la empresas.
+                        </p>
+                        <p class="proy_descripcion">
+                          Creando mis propios proyectos es una gran forma de aprender y también de demostrar lo que
+                          tengo para ofrecer.
+                        </p>
+                        <p class="proy_descripcion">
+                          Iré mejorando mi portafolio poco a poco mientras más conocimientos adquiera.
+                        </p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">
+                          Cerrar
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="portafolio_item">
+              <div class="portafolio_img">
+                <img src="./assets/proyectos/proyecto_clinica_java.png" alt="Clínica Atlantis">
+              </div>
+              <div class="portafolio_info">
+                <h2>Clinica Atlantis</h2>
+                <p class="proy_descripcion">
+                  Sistema Administrativo para una clinica.
+                </p>
+                <div class="proy_tecnologias">
+                  <h4>Tecnologías:</h4>
+                  <div>
+                    <p>HTML</p>
+                    <p>CSS</p>
+                    <p>JS</p>
+                    <p>Bootstrap</p>
+                    <p>Java</p>
+                    <p>MySql</p>
+                    <p>API</p>
+                  </div>
+                </div>
+                <hr>
+                <div class="proy_links">
+                  <a type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#staticBackdrop4">
+                    Leer más
+                  </a>
+                  <a class="btn btn-dark" href="https://github.com/marcoadh/proyecto-clinica" target="_blank"><i
+                      class="bi bi-github"></i> Repositorio</a>
+                </div>
+                <hr>
+
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop4" data-bs-backdrop="static" data-bs-keyboard="false"
+                  tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true" style="z-index: 9992;">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">Clínica Atlantis</h5>
+                      </div>
+                      <div class="modal-body">
+                        <p class="proy_descripcion">
+                          Esta aplicación fue creada como un proyecto de estudios del Instituto.
+                        </p>
+                        <p class="proy_descripcion">
+                          Es una aplicación web administrativa para una clinica, donde permite registrar una cita para
+                          el paciente, el mantenimiento de empleados, doctores, usuarios, etc.
+                        </p>
+                        <p class="proy_descripcion fs-09">
+                          Detalles: <br>
+                          - Se usó el lenguaje de programación Java y Spring Tool Suite. <br>
+                          - Se usó MySql como base de datos. <br>
+                          - La App web consumía una API REST. <br>
+                          - La API fue creada en Java, MySql, y se usó Postman para las consultas.
+                        </p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">
+                          Cerrar
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="copyr">
+      <p class="copy">
+        Hecho con 💙 <br>
+        Copyright &copy; 2021. Marco De la cruz
+      </p>
+    </div>
+
+  </main>
+
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="./js/index.js"></script>
+</body>
+
+</html>
