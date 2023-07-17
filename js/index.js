@@ -1,26 +1,21 @@
-addEventListener("DOMContentLoaded", () => {
-    const $botonMenu = document.querySelector(".mobile-nav-toggle"),
-        $botonIcono = document.querySelector(".bi-list"),
-        $navegacion = document.getElementById("navegacion"),
-        $lista = document.querySelectorAll(".lista");
-        
-    if($botonMenu){
-        $botonMenu.addEventListener("click", () => {
-            if ($botonIcono.className == "bi bi-list") {
-                $navegacion.classList.add("nav-active");
-                $botonIcono.classList.replace("bi-list", "bi-x");
-            }
-            else if ($botonIcono.className == "bi bi-x") {
-                $navegacion.classList.remove("nav-active");
-                $botonIcono.classList.replace("bi-x", "bi-list");
-            }
-        });
-    };
+import data from '../json/data.json' assert { type: 'json' };
+import { AgregarDatos } from './AgregarDatos.js';
+import { NavBar } from './NavBar.js';
 
-    $lista.forEach(lista => {
-        lista.addEventListener("click", function() {
-            $lista.forEach(btn => btn.classList.remove("active"));
-            this.classList.add("active");
-        });
-    });
+addEventListener("DOMContentLoaded", () => {
+  const $portada = document.querySelector('.inicio-contenedor'),
+    $sobremi = document.querySelector('.sobremi_descripcion'),
+    $habilidades = document.querySelector('.skills_grid'),
+    $proyectos = document.querySelector('#portafolio .container .row');
+
+  const agregarDatos = new AgregarDatos(data),
+    navBar = new NavBar();
+
+  agregarDatos.portada($portada);
+  agregarDatos.sobremi($sobremi);
+  agregarDatos.habilidades($habilidades);
+  agregarDatos.proyectos($proyectos);
+  
+  navBar.botonMenu();
+  navBar.activeMenu();
 });

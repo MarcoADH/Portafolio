@@ -1,0 +1,47 @@
+{
+  "informacion": {
+    "nombre": "Marco De la cruz",
+    "cargo": "Desarrollador Full-Stack",
+    "correo": "marcodh.dev@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/marcodelacruzh/",
+    "github": "https://github.com/MarcoADH/",
+    "descripcion": "<div>Me llamo Marco De la cruz, vivo de Lima, Perú 🇵🇪, actualmente me dedico al <strong><em>Desarrollo Web Full-Stack</em></strong>, y uso <strong><em>Ruby on Rails</em></strong> como tecnología principal. Soy autodidacta, constantemente tomando cursos para aprender nuevas tecnologías.<br><br>En mis tiempos libres me gusta salir a caminar o ir a la playa y obtener ideas para nuevos proyectos.</div>",
+    "actividades": [
+      "Actualmente estoy trabajando en una página web - proyecto personal",
+      "Llevando un curso acerca de .NET",
+      "Llevando un curso acerca de Rails 7"
+    ],
+    "habilidades": [
+      { "nombre": "HTML5", "icono": "icons-html5.png" },
+      { "nombre": "CSS3", "icono": "icons-css3.png" },
+      { "nombre": "JavaScript", "icono": "icons-javascript.png" },
+      { "nombre": "Bootstrap", "icono": "icons-boostrap.png" },
+      { "nombre": "Git", "icono": "icons-git.png" },
+      { "nombre": "MySql", "icono": "icons-mysql.png" },
+      { "nombre": "Stimulus JS", "icono": "icons-stimulus-js.png" },
+      { "nombre": "JQuery", "icono": "icons-jquery.png" },
+      { "nombre": "Ruby", "icono": "icons-ruby.png" },
+      { "nombre": "Rails", "icono": "icons-rails.png" }
+    ],
+    "proyectos": [
+      {
+        "nombre": "ARQ | Arquitectura",
+        "descripcion": "Proyecto de Estudios - Página Arquitectura.",
+        "pagina": "https://project-architecture.netlify.app/",
+        "repositorio": "https://github.com/marcoadh/arquitectura",
+        "detalles": null,
+        "imagen": "proyecto_pagina_arq.png",
+        "tecnologias": ["HTML", "CSS", "JavaScript", "Bootstrap", "JQuery"]
+      },
+      {
+        "nombre": "Desafíos Frontend",
+        "descripcion": "Desafíos resueltos de Frontend.",
+        "pagina": "https://marcoadh.github.io/challenges/",
+        "repositorio": "https://github.com/marcoadh/challenges",
+        "detalles": null,
+        "imagen": "proyecto_challenges_frontendmentor.png",
+        "tecnologias": ["HTML", "CSS", "JavaScript"]
+      }
+    ]
+  }
+}
