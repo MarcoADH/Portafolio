@@ -41,6 +41,33 @@
         "detalles": null,
         "imagen": "proyecto_challenges_frontendmentor.png",
         "tecnologias": ["HTML", "CSS", "JavaScript"]
+      },
+      {
+        "nombre": "Alpha Blog",
+        "descripcion": "Blog básico donde puedes leer o crear artículos.",
+        "pagina": "",
+        "repositorio": "https://github.com/marcoadh/alpha-blog",
+        "detalles": null,
+        "imagen": "proyecto_alpha_blog.png",
+        "tecnologias": ["HTML", "CSS", "Boostrap", "JavaScript", "Ruby", "Rails 5", "SQLite"]
+      },
+      {
+        "nombre": "University Tech",
+        "descripcion": "Aplicación web donde se puede registrar cursos de tecnología.",
+        "pagina": "",
+        "repositorio": "https://github.com/marcoadh/university-technology-rails",
+        "detalles": null,
+        "imagen": "proyecto_web_universidad.png",
+        "tecnologias": ["HTML", "CSS", "Materialize", "JavaScript", "Ruby", "Rails 5", "SQLite"]
+      },
+      {
+        "nombre": "Control de Horario",
+        "descripcion": "Aplicación web que permite registrar entrada y salida de empleado.",
+        "pagina": "",
+        "repositorio": "https://github.com/marcoadh/control-horarios",
+        "detalles": null,
+        "imagen": "proyecto_control_horarios.png",
+        "tecnologias": ["HTML", "CSS", "Bootstrap", "JavaScript", "Ruby", "Rails 5", "SQLite"]
       }
     ]
   }
